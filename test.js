@@ -26,3 +26,19 @@ else if (memberType === "silverMember"){totalPrice += 100 * 0.9;}
 else if (memberType === "goldMember"){totalPrice += 100 * 0.85;}
 else if (memberType === "platinumMember"){totalPrice += 100 * 0.8;}
 else {totalPrice = originalPrice;}
+
+const originalPrice = 100
+let totalPrice = 0
+let memberType = "notmember"
+
+switch (memberType) {
+    case "normalMember" : totalPrice += 100 * 0.95
+    break;
+    case "silverMember" : totalPrice += 100 * 0.9
+    break;
+    case "goldMember" : totalPrice += 100 * 0.85
+    break;
+    case "platinumMember" : totalPrice += 100 * 0.8
+    break;
+    default : totalPrice = originalPrice
+}
