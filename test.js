@@ -42,3 +42,32 @@ switch (memberType) {
     break;
     default : totalPrice = originalPrice
 }
+
+let num1 = 0;
+//functionTest 
+function calculate(number1, number2, number3){
+    num1 = number1 * number2 * number3
+    num1 += 4
+    num1 /= 2
+}
+
+calculate()
+// value returning function
+let num1 = 0;
+function getNumber(number){
+    
+    return number
+
+    //only work code infront of return,not back
+    
+}
+const myNumber = getNumber();
+
+//built-in function
+alert ("Hello World")
+
+// ES6 arrow function
+const myarrowfunction = (para1,para2) => 
+para1 * para2
+
+myarrowfunction(2,3)
