@@ -98,5 +98,18 @@ const person1 = {
  isActor: false,
  walk: () => {
     alert("Aung Aung is sleeping now...")
- }
+ } //walk is method name.
 }
+//Accessing object's properties and methods
+//(1) dot notation eg-
+person1.name
+person1.age
+person1.isActor
+person1.walk() //call funtion
+
+//(2) bracket notation eg-
+person1['name']
+person1['date_ofBirth']
+person1['walk']()//call function
+
+
