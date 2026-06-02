@@ -69,5 +69,34 @@ alert ("Hello World")
 // ES6 arrow function
 const myarrowfunction = (para1,para2) => 
 para1 * para2
+// {} ထည်ချင်ရင် returun need
 
 myarrowfunction(2,3)
+
+//object
+//why? to add more than one property in one vaiable
+{} // empty object
+//not use semicolum(;) only use commar(,)
+
+const person1 = {
+ name: "Aung Aung",
+ age: 30,
+ height: 180,
+ city: "Nyao",
+ date_ofBirth:1990,
+ isActor: false,
+}
+
+//method of object(using function)
+
+const person1 = {
+ name: "Aung Aung",
+ age: 30,
+ height: 180,
+ city: "Nyao",
+ date_ofBirth:1990,
+ isActor: false,
+ walk: () => {
+    alert("Aung Aung is sleeping now...")
+ }
+}
