@@ -112,4 +112,17 @@ person1['name']
 person1['date_ofBirth']
 person1['walk']()//call function
 
+//setting new properties and method(only already know)
 
+person1.hobby = "football";// if worng do same and change value
+person1.isMale= true
+person1.eat = () => {alert("Aung Aung is eating")}
+
+//for data from user(unknowData)
+
+const input1 = ""
+const input2 = ""
+const propertyName = "DonatedBy" + input1
+//DonatedByMgMg=10000
+person1[propertyName] = input2
+//dot doesn't work,only work with blanket[] This is dynamic. 
