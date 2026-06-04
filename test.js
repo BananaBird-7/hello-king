@@ -125,4 +125,15 @@ const input2 = ""
 const propertyName = "DonatedBy" + input1
 //DonatedByMgMg=10000
 person1[propertyName] = input2
-//dot doesn't work,only work with blanket[] This is dynamic. 
+//doesn't work with Dot . ,only work with blanket[] This is dynamic. 
+
+//Other object add in One Object
+const car = {
+          price: 5000000,
+          model: "Toyota",
+          madeBy: "Japan"      
+}
+person1.carinfo = car //can add direct (carinfo:car,)
+person1.carinfo.driver="U Ba"//can add new properties
+person1.carinfo.price //can call variable like that
+
