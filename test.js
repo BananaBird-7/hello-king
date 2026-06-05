@@ -137,3 +137,6 @@ person1.carinfo = car //can add direct (carinfo:car,)
 person1.carinfo.driver="U Ba"//can add new properties
 person1.carinfo.price //can call variable like that
 
+//window object
+window.console.log()
+
