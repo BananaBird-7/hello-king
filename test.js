@@ -140,3 +140,17 @@ person1.carinfo.price //can call variable like that
 //window object
 window.console.log()
 
+//Array[] (array id order)
+//order{} (object is unorder)
+const unorder = {x : "80 view",y : "video title",z : "songs"}
+const order = ["Joset","Jotaro","Josuke",]
+
+//index နှင့်ခေါ်ရ (start 0) eg-
+order[0]
+//array.length(count the elements)
+//array.push(""); (add new elements) this is method.eg-
+order.push("Jolyne")
+
+
+
+
