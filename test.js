@@ -139,6 +139,7 @@ person1.carinfo.price //can call variable like that
 
 //window object
 window.console.log()
+//can add variable without ""
 
 //Array[] (array id order)
 //order{} (object is unorder)
@@ -150,6 +151,10 @@ order[0]
 //array.length(count the elements)
 //array.push(""); (add new elements) this is method.eg-
 order.push("Jolyne")
+ // get last item in an array
+ const index = order.length-1
+ order[index] //call index
+
 
 
 
